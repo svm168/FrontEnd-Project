@@ -6,7 +6,7 @@ export default function Homepage() {
 	return (
 		<>
 			<Header />
-			<div className='flex dark:bg-[#1e1e1e] transition-colors duration-1000 ease-in-out'>
+			<div className='flex dark:bg-[#1e1e1e] transition-colors duration-300 ease-in-out'>
 				<Posts />
 				<Sidebar />
 			</div>

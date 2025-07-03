@@ -11,7 +11,9 @@ export default function Topbar() {
 					<li className='mx-2.5 cursor-pointer'>
 						<NavLink to='/write'>WRITE</NavLink>
 					</li>
-					<li className='mx-2.5 cursor-pointer'>LOGOUT</li>
+					<li className='mx-2.5 cursor-pointer'>
+						<NavLink to='/login'>LOGOUT</NavLink>
+					</li>
 				</ul>
 			</div>
 
